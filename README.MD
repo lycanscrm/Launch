@@ -1,6 +1,6 @@
 # Demos
 
-![Launch demos][http://i.imgur.com/3T5auqA.png]
+![Launch demos](http://i.imgur.com/3T5auqA.png "Launch demos")
 
 # Requirement
 
