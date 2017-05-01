@@ -1,13 +1,12 @@
-# Launch cho game TLBB
+# Demos
 
-# Todo
+![Launch demos][http://i.imgur.com/3T5auqA.png]
 
-Launch có background(đã có ảnh sẵn)
-Có các button:
-- Start Game
-- Close Launch
-- Minimize
-- Exit
+# Requirement
+
+Visual Studio >= 2013
+
+# Funcs
 
 Download File
 - /Patch/loginserver.txt
