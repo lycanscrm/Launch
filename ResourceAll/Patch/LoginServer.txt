@@ -1,0 +1,4 @@
+VERSION 1
+SERVER_BEGIN
+LÕc Dß½ng,KÖ Ni®m,1,121,3,1,0,Cøm máy chü LÕc Dß½ng,192.168.1.3:7864,,,
+SERVER_END

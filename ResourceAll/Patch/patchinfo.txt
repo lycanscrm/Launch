@@ -1,0 +1,8 @@
+[Version]
+Latest=1.00.0000
+NewLaunch=1.0.0
+
+[Patch_0]
+VersionFrom=1.00.0000
+VersionTo=1.00.0001
+URL_1=

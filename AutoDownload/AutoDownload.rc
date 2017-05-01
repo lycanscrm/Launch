@@ -1,0 +1,177 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+BACKGROUND_LAUNCH       BITMAP                  "Resource\\Background.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ICON_LAUNCH             ICON                    "Resource\\AutoDownload.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+MAIN_LAUNCH DIALOGEX 0, 0, 533, 257
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_BORDER
+EXSTYLE WS_EX_TOPMOST
+FONT 8, "Arial", 400, 0, 0xA3
+BEGIN
+    CONTROL         IDB_BITMAP1,IDC_STATIC,"Static",SS_BITMAP | SS_NOTIFY,516,4,12,10
+    CONTROL         IDB_BITMAP4,IDC_STATIC2,"Static",SS_BITMAP | SS_NOTIFY,502,4,12,10
+    LTEXT           "Downloading...",MESSAGE,30,205,235,8,NOT WS_GROUP,WS_EX_TOPMOST | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_WINDOWEDGE
+    CONTROL         "",IDC_EXPLORER1,"{8856F961-340A-11D0-A96B-00C04FD705A2}",0x0,37,95,234,101
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | WS_BORDER,30,217,296,9,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_PROGRESS2,"msctls_progress32",PBS_SMOOTH | WS_BORDER,30,229,296,9,WS_EX_TRANSPARENT
+    LTEXT           "Getting version info...",IDC_STATIC6,30,245,296,8
+    CTEXT           "HOME",IDC_STATIC5,8,0,57,25,SS_NOTIFY | SS_CENTERIMAGE
+    CTEXT           "REGISTER",IDC_STATIC7,65,0,49,25,SS_NOTIFY | SS_CENTERIMAGE
+    CTEXT           "CASH",IDC_STATIC8,114,0,43,25,SS_NOTIFY | SS_CENTERIMAGE
+    CTEXT           "FANPAGE",IDC_STATIC9,203,0,45,25,SS_NOTIFY | SS_CENTERIMAGE
+    CTEXT           "SETTINGS",IDC_STATIC10,157,0,46,25,SS_NOTIFY | SS_CENTERIMAGE
+    CONTROL         "START GAME",IDC_BUTTON1,"Button",BS_OWNERDRAW | WS_DISABLED | WS_TABSTOP,361,173,150,47
+    EDITTEXT        IDC_EDIT_UNPACK_PATH,515,243,18,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_URL,515,229,18,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    LTEXT           "0.0KB/s",IDC_STATIC_SPEED,270,205,31,8
+    RTEXT           "0%",IDC_PROGRESS_TEXT,304,205,21,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    MAIN_LAUNCH, DIALOG
+    BEGIN
+        MOCKUP, 1, 100, 0, 0, ".\Resource\Background.bmp"
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+MAIN_LAUNCH DLGINIT
+BEGIN
+    IDC_EXPLORER1, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x2447, 0x0000, 0x124b, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0003, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "Resource\\BTN_325_Close_Hov.bmp"
+IDB_BITMAP2             BITMAP                  "Resource\\BTN_325_Close_Nor.bmp"
+IDB_BITMAP3             BITMAP                  "Resource\\BTN_325_Close_Psh.bmp"
+IDB_BITMAP4             BITMAP                  "Resource\\BTN_325_Min_Hov.bmp"
+IDB_BITMAP5             BITMAP                  "Resource\\BTN_325_Min_Nor.bmp"
+IDB_BITMAP6             BITMAP                  "Resource\\BTN_325_Min_Psh.bmp"
+IDB_BITMAP7             BITMAP                  "Resource\\playnow_btn.bmp"
+IDB_BITMAP8             BITMAP                  "Resource\\playnow_btn_dsb.bmp"
+IDB_BITMAP9             BITMAP                  "Resource\\playnow_btn_cli.bmp"
+IDB_BITMAP10            BITMAP                  "Resource\\playnow_btn_hov.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "Resource\\aero_link.cur"
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
