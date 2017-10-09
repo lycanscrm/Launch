@@ -211,9 +211,14 @@ pip-log.txt
 
 #Translations
 *.mo
+.vs
 
 #Mr Developer
 .mr.developer.cfg
-!curl/*
-!Release/(version)
-!Release/Launch.ini
+!/curl/*
+!/Release/(version)
+!/Release/Launch.ini
+.editorconfig
+.ycm_extra_conf.py
+!ResourceAll/Bin/Unpack.exe
+!ResourceAll/Bin/(LaunchVersion)
