@@ -220,5 +220,6 @@ pip-log.txt
 !/Release/Launch.ini
 .editorconfig
 .ycm_extra_conf.py
+!ResourceAll/Bin
 !ResourceAll/Bin/Unpack.exe
 !ResourceAll/Bin/(LaunchVersion)
